@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    border: 2px solid violet;
+   
+}
+
+.container {
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid #000;
+    cursor: crosshair;
+    background-color: #fff;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    border-radius: 20px;
+    cursor: pointer;
+    border:3px solid #000;
+}
